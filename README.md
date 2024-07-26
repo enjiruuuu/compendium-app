@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# compendium-app
+a react app for a compendium
+<br>
+currently, data is manually defined in a json file, but eventually, we plan to release a feature where users can pick from a pre-defined template based on teams or create their own custom compendium
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
