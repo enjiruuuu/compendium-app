@@ -1,0 +1,26 @@
+.app-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 50px;
+    background-color: #f4f8fe;
+}
+
+@media only screen and (min-width: 720px) {
+    .app-home {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .app-home {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .app-home {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

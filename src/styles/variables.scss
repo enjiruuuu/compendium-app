@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('./fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('./fonts/Roboto/Roboto-Medium.ttf');
+}
+
+// typopgraphy
+
+$default-font-family: 'Roboto';
+$body-font-weight: 400;
+
+$title-font-weight: 500;
+$title-font-size: 18px;
