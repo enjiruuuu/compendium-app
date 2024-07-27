@@ -1,6 +1,70 @@
 {
+    "bignose-shark": {
+        "uiName": "Bignose Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-TraceRouda-via-Canva-1.png"
+    },
+    "blacktip-reef-shark": {
+        "uiName": "Blacktip Reef Shark",
+        "thumbnail": "https://mauioceancenter.com/wp-content/uploads/2020/11/blacktip2-scaled.jpeg"
+    },
+    "blue-shark": {
+        "uiName": "Blue Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tibur%C3%B3n_azul_%28Prionace_glauca%29%2C_canal_Fayal-Pico%2C_islas_Azores%2C_Portugal%2C_2020-07-27%2C_DD_28.jpg"
+    },
     "galapagos-shark": {
         "uiName": "Galapagos Shark",
-        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4JB8TLhlKl8AmibmnaBnI_tSmY7Q_wOX91A&s"
+        "thumbnail": "https://media.australian.museum/media/dd/images/Some_image.width-1600.14fd8d2.jpg"
+    },
+    "gray-reef-shark": {
+        "uiName": "Gray Reef Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Grey5b.jpg"
+    },
+    "great-white-shark": {
+        "uiName": "Great White Shark",
+        "thumbnail": "https://files.worldwildlife.org/wwfcmsprod/images/Great_White_Shark_Circle_and_Hero_Image/hero_small/4xiu3sxbqd_Species_Great_White_Shark_WWF_Carlos_Aguilera.jpg"
+    },
+    "longfin-mako-shark": {
+        "uiName": "Longfin Mako Shark",
+        "thumbnail": "https://whalerslocker.com/cdn/shop/articles/MakoShark-Stock_1200x1200.jpg?v=1662595485"
+    },
+    "oceanic-whitetip-shark": {
+        "uiName": "Oceanic Whitetip Shark",
+        "thumbnail": "https://dlnr.hawaii.gov/dar/files/2023/11/CX5A1242.jpg"
+    },
+    "sandbar-shark": {
+        "uiName": "Sandbar Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Wrangel-via-Canva.png"
+    },
+    "scalloped-hammerhead-shark": {
+        "uiName": "Scalloped Hammerhead Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Thomas-Bannenberg-via-Canva.png"
+    },
+    "shortfin-mako-shark": {
+        "uiName": "Shortfin Mako Shark",
+        "thumbnail": "https://www.fisheries.noaa.gov/s3//styles/inline_field_thumbnail/s3/dam-migration/noaa_fisheries_swfsc_walter_heim_mg_8978_pe.jpg?h=1c9b88c9&amp;itok=Xm1n0P0W"
+    },
+    "silky-shark": {
+        "uiName": "Silky Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Carcharhinus_falciformis_off_Cuba.jpg"
+    },
+    "smooth-hammerhead-shark": {
+        "uiName": "Smooth Hammerhead Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Michael-Zeigler-via-Canva.png"
+    },
+    "thresher-shark": {
+        "uiName": "Thresher Shark",
+        "thumbnail": "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2022/7/11/GettyImages-1141812138.jpg.rend.hgtvcom.616.411.suffix/1657580531990.jpeg"
+    },
+    "tiger-shark": {
+        "uiName": "Tiger Shark",
+        "thumbnail": "https://www.australiangeographic.com.au/wp-content/uploads/2023/07/shutterstock_2263403737-scaled.jpg"
+    },
+    "whale-shark": {
+        "uiName": "Whale Shark",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWN4_xq7ZKWY7oI1W0AuBb3ntPsrnGuS4rg&s"
+    },
+    "whitetip-reef-shark": {
+        "uiName": "Whitetip Reef Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-CreativeNature_nl-via-Canva.png"
     }
 }
