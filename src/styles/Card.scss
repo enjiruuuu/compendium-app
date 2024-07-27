@@ -8,6 +8,11 @@
     transition: transform 0.3s;
     transform: scale(1);
     transition-timing-function: ease-in-out;
+    filter: grayscale(1);
+
+    &.seen {
+        filter: grayscale(0);
+    }
 
     &:hover {
         transform: scale(1.05);
