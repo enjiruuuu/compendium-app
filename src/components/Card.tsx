@@ -9,8 +9,9 @@ export default function Card({ animal, id, seen }: { animal: IAnimal, id: string
         classes += ' seen';
     }
 
+
     return <div className={classes}>
-        <Link to={`details/${id}`}>
+        <Link to={`details/${id}`} state={{ ...animal, seen, id }}>
             <div className="image" style={{
                 backgroundImage: `url(${animal.thumbnail})`
             }}>
