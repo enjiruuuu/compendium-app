@@ -1,5 +1,4 @@
 import Card from '../components/Card';
-import { IAnimal } from '../interfaces/IAnimal';
 
 const Home = () => {
     const animals = require('../data/animals.json');
@@ -10,5 +9,5 @@ const Home = () => {
         ))}
     </div>;
 };
-  
+
 export default Home;
