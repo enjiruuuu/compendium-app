@@ -1,7 +1,7 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import Tag from "../components/Tag";
 import { IAnimalMeta } from "../interfaces/IAnimal";
 import '../styles/Details.scss';
+import '../styles/general.scss';
 
 export default function Details() {
     const { id } = useParams();
@@ -17,7 +17,7 @@ export default function Details() {
         <div className="details-header">
             <Link to={`/`}>Back</Link>
             <h1>{animalMeta.uiName}</h1>
-            <Tag tagTitle={animalMeta.seen ? 'Seen' : 'Unseen'}></Tag>
+            <button className={animalMeta.seen ? 'secondary' : 'primary'}>{animalMeta.seen ? 'Mark as unseen' : 'Mark as seen'}</button>
         </div>
         <img className={classes} src={animalMeta.thumbnail} alt={animalMeta.uiName}></img>
         <div className="description">

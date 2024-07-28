@@ -1,7 +1,8 @@
 .details {
     img {
-        width: 300px;
+        width: 500px;
         filter: grayscale(1);
+        margin-top: 30px;
 
         &.seen {
             filter: grayscale(0);

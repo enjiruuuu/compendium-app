@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+button {
+    height: $button-height;
+    border-radius: $button-border-radius;
+    border: $button-border-color;
+    font-family: $default-font-family;
+    font-weight: $title-font-weight;
+    min-width: $button-min-width;
+    cursor: pointer;
+
+    &.primary {
+        background-color: $button-primary-color;
+    }
+
+    &.secondary {
+        background-color: $button-secondary-color;
+    }
+}
