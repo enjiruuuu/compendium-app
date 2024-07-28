@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
+import Form from "../components/Form";
 import Modal, { IModalData } from "../components/Modal";
 import { IAnimalMeta } from "../interfaces/IAnimal";
 import '../styles/Details.scss';
@@ -12,6 +13,7 @@ export default function Details() {
 
     const [showConfirmation, setShowConfirmation] = useState(false);
     const [isSeen, setIsSeen] = useState(animalMeta.seen);
+    const [isModalConfirmationButtonDisabled, setModalConfirmationButtonDisabled] = useState(true);
 
     let classes: string = "";
     if (isSeen) {
@@ -19,30 +21,40 @@ export default function Details() {
     }
 
     function onClickMarkButton(): void {
-        if (isSeen) {
-            setShowConfirmation(true);
-        }
-        else {
-            setIsSeen(true);
-        }
+        setShowConfirmation(true);
     }
 
     function onCloseConfirmationModal(): void {
         setShowConfirmation(false);
     }
 
-    function onAcceptConfirmationModal(): void {
+    function onAcceptMarkAsUnseenConfirmationModal(): void {
         setIsSeen(false);
         onCloseConfirmationModal();
     }
 
+    function onAcceptSeenConfirmationModal(): void {
+        setIsSeen(true);
+        onCloseConfirmationModal();
+    }
+
+    function setModalConfirmationButtonDisabledFromChild(isDisabled: boolean): void {
+        setModalConfirmationButtonDisabled(isDisabled);
+    }
+
     const markText: string = isSeen ? "Mark as unseen" : "Mark as seen";
 
-    const confirmationText: IModalData = {
+    const markAsUnseenConfirmationText: IModalData = {
         header: "Mark as unseen",
         bodyText: "Are you sure you want to perform this action? This will remove all logged locations and gallery images.",
         declineText: 'Cancel',
         acceptText: "Mark as unseen",
+    }
+
+    const markAsSeenConfirmationText: IModalData = {
+        header: "Mark as seen",
+        declineText: 'Cancel',
+        acceptText: "Mark as seen",
     }
 
     return <>
@@ -89,7 +101,12 @@ export default function Details() {
             }
         </div>
         {
-            showConfirmation && <Modal data={confirmationText} onClose={onCloseConfirmationModal} onAccept={onAcceptConfirmationModal}></Modal>
+            (showConfirmation && isSeen) && <Modal data={markAsUnseenConfirmationText} onClose={onCloseConfirmationModal} onAccept={onAcceptMarkAsUnseenConfirmationModal}></Modal>
+        }
+        {
+            (showConfirmation && !isSeen) && <Modal data={markAsSeenConfirmationText} onClose={onCloseConfirmationModal} onAccept={onAcceptSeenConfirmationModal} acceptButtonDisabled={isModalConfirmationButtonDisabled}>
+                <Form onSendInputStatus={setModalConfirmationButtonDisabledFromChild}></Form>
+            </Modal>
         }
     </>;
 }

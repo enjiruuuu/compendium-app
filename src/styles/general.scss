@@ -16,4 +16,9 @@ button {
     &.secondary {
         background-color: $button-secondary-color;
     }
+
+    &:disabled {
+        background-color: $button-disabled-color !important;
+        cursor: default;
+    }
 }
