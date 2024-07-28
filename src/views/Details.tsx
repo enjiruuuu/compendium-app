@@ -1,5 +1,5 @@
 import { Link, useLocation, useParams } from "react-router-dom";
-import Tag from '../components/Tag';
+import Tag from "../components/Tag";
 import { IAnimalMeta } from "../interfaces/IAnimal";
 import '../styles/Details.scss';
 
@@ -28,39 +28,24 @@ export default function Details() {
             animalMeta.seen &&
             <div className="sighting-locations">
                 <h3>Personal sightings</h3>
-                <p>Hawaii</p>
+                {animalMeta.locations?.map((location) => (
+                    <p>{location}</p>
+                ))}
             </div>
         }
         {
-            animalMeta.seen &&
+            // maximum of 8 photos allowed in gallery
+            (animalMeta.seen && animalMeta.gallery) &&
             <div className="gallery">
                 <h3>Personal gallery</h3>
                 <div>
-                    <div className="photo">
-                        <div style={{
-                            backgroundImage: `url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_93767916.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024)`
-                        }}></div>
-                    </div>
-                    <div className="photo">
-                        <div style={{
-                            backgroundImage: `url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_93767916.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024)`
-                        }}></div>
-                    </div>
-                    <div className="photo">
-                        <div style={{
-                            backgroundImage: `url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_93767916.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024)`
-                        }}></div>
-                    </div>
-                    <div className="photo">
-                        <div style={{
-                            backgroundImage: `url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_93767916.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024)`
-                        }}></div>
-                    </div>
-                    <div className="photo">
-                        <div style={{
-                            backgroundImage: `url(https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/t/n/tnc_93767916.jpg?crop=0%2C83%2C4000%2C2500&wid=1640&hei=1025&scl=2.4390243902439024)`
-                        }}></div>
-                    </div>
+                    {animalMeta.gallery?.map((url) => (
+                        <div className="photo">
+                            <div style={{
+                                backgroundImage: `url(${url})`
+                            }}></div>
+                        </div>
+                    ))}
                 </div>
             </div>
         }
