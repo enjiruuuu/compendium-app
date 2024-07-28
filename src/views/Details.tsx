@@ -68,18 +68,23 @@ export default function Details() {
             }
             {
                 // maximum of 8 photos allowed in gallery
-                (isSeen && animalMeta.gallery) &&
+                isSeen &&
                 <div className="gallery">
                     <h3>Personal gallery</h3>
-                    <div>
-                        {animalMeta.gallery?.map((url, index) => (
-                            <div className="photo" key={index}>
-                                <div style={{
-                                    backgroundImage: `url(${url})`
-                                }}></div>
-                            </div>
-                        ))}
-                    </div>
+                    {
+                        (animalMeta.gallery) && <div>
+                            {animalMeta.gallery?.map((url, index) => (
+                                <div className="photo" key={index}>
+                                    <div style={{
+                                        backgroundImage: `url(${url})`
+                                    }}></div>
+                                </div>
+                            ))}
+                        </div>
+                    }
+                    {
+                        (!animalMeta.gallery) && <button className="primary">Add photos</button>
+                    }
                 </div>
             }
         </div>
