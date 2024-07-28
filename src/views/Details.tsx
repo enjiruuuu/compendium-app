@@ -61,8 +61,8 @@ export default function Details() {
                 isSeen &&
                 <div className="sighting-locations">
                     <h3>Personal sightings</h3>
-                    {animalMeta.locations?.map((location) => (
-                        <p>{location}</p>
+                    {animalMeta.locations?.map((location, index) => (
+                        <p key={index}>{location}</p>
                     ))}
                 </div>
             }
@@ -72,8 +72,8 @@ export default function Details() {
                 <div className="gallery">
                     <h3>Personal gallery</h3>
                     <div>
-                        {animalMeta.gallery?.map((url) => (
-                            <div className="photo">
+                        {animalMeta.gallery?.map((url, index) => (
+                            <div className="photo" key={index}>
                                 <div style={{
                                     backgroundImage: `url(${url})`
                                 }}></div>
