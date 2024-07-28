@@ -1,0 +1,20 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+
+    .button-container {
+        button:first-child {
+            margin-right: 10px;
+        }
+
+        button:nth-child(2) {
+            margin-left: 10px;
+        }
+    }
+}
