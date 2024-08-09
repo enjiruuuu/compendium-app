@@ -1,0 +1,104 @@
+[
+    {
+        "key": "bignose-shark",
+        "uiName": "Bignose Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-TraceRouda-via-Canva-1.png",
+        "description": "<p>The bignose shark (Carcharhinus altimus) is a large species of requiem shark found in deep waters across the Atlantic and Indo-Pacific oceans. It is named for its long, rounded snout, which distinguishes it from other sharks.</p><p>Typically growing up to 2.7 meters (8.9 feet) in length, the bignose shark has a robust body and broad, rounded fins. Its coloration is usually grayish-brown on top with a paler underside.</p><p>Bignose sharks are known to inhabit continental shelves and slopes, feeding on bony fishes, squids, and smaller sharks. Despite their size, they are not considered a significant threat to humans.</p>"
+    },
+    {
+        "key": "blacktip-reef-shark",
+        "uiName": "Blacktip Reef Shark",
+        "thumbnail": "https://mauioceancenter.com/wp-content/uploads/2020/11/blacktip2-scaled.jpeg",
+        "description": "<p>The blacktip reef shark (Carcharhinus melanopterus) is a common shark species found in shallow, warm coastal waters of the Indo-Pacific region. It is easily recognizable by the distinctive black tips on its fins, especially on the first dorsal fin and lower lobe of the caudal fin.</p><p>This shark typically grows to about 1.6 meters (5.2 feet) in length. It has a slender body, a short, rounded snout, and large, round eyes.</p><p>Blacktip reef sharks are known for their curious behavior and are often seen patrolling coral reefs. They primarily feed on small fish and invertebrates and are generally considered to be harmless to humans.</p>"
+    },
+    {
+        "key": "blue-shark",
+        "uiName": "Blue Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Tibur%C3%B3n_azul_%28Prionace_glauca%29%2C_canal_Fayal-Pico%2C_islas_Azores%2C_Portugal%2C_2020-07-27%2C_DD_28.jpg",
+        "description": "<p>The blue shark (Prionace glauca) is a sleek and elegant shark species known for its vibrant blue color. It is found in deep, open ocean waters worldwide, primarily in temperate and tropical regions.</p><p>Blue sharks can reach lengths of up to 3.8 meters (12.5 feet) and have a slender, elongated body with long pectoral fins. They are known for their migratory behavior, often traveling long distances.</p><p>This species primarily feeds on small fish and squid, using its sharp, serrated teeth. While blue sharks are not typically aggressive towards humans, they are one of the most encountered sharks by divers and fishermen in the open ocean.</p>"
+    },
+    {
+        "key": "galapagos-shark",
+        "uiName": "Galapagos Shark",
+        "thumbnail": "https://media.australian.museum/media/dd/images/Some_image.width-1600.14fd8d2.jpg",
+        "description": "<p>The Galapagos shark (Carcharhinus galapagensis) is a large species of requiem shark that inhabits tropical and subtropical waters, particularly around oceanic islands like the Galapagos. It is known for its robust build and active behavior.</p><p>This shark typically grows to around 3.7 meters (12 feet) in length and has a rounded snout, large eyes, and a powerful body. Its coloration is generally gray with a white underside, and it lacks the prominent black tips found on some other shark species.</p><p>Galapagos sharks are opportunistic predators, feeding on a wide range of prey including fish, squid, and occasionally seabirds. They are known to be curious and can sometimes be aggressive, particularly when food is present.</p>"
+    },
+    {
+        "key": "gray-reef-shark",
+        "uiName": "Gray Reef Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Grey5b.jpg",
+        "description": "<p>The gray reef shark (Carcharhinus amblyrhynchos) is a common species found in coral reef habitats of the Indo-Pacific region. It is known for its sleek, muscular build and distinctive swimming style.</p><p>Gray reef sharks usually grow up to 2 meters (6.6 feet) in length. They have a broad, rounded snout, large eyes, and a notable ridge between the dorsal fins. Their coloration ranges from gray to brown, with a white underside and sometimes a white-tipped dorsal fin.</p><p>This species is a top predator on coral reefs, preying on fish, cephalopods, and crustaceans. While generally shy, gray reef sharks can become aggressive if threatened, especially when cornered or if there is food around.</p>"
+    },
+    {
+        "key": "great-white-shark",
+        "uiName": "Great White Shark",
+        "thumbnail": "https://files.worldwildlife.org/wwfcmsprod/images/Great_White_Shark_Circle_and_Hero_Image/hero_small/4xiu3sxbqd_Species_Great_White_Shark_WWF_Carlos_Aguilera.jpg",
+        "description": "<p>The great white shark (Carcharodon carcharias) is one of the most well-known and feared shark species in the world. It is found in coastal surface waters of all major oceans and is recognized for its size, power, and distinctive appearance.</p><p>Great white sharks can reach lengths of over 6 meters (20 feet) and are characterized by a robust, torpedo-shaped body, a pointed snout, and a large, triangular dorsal fin. Their coloration is typically gray on the top with a white underside, which helps them blend in when viewed from below.</p><p>This apex predator primarily feeds on marine mammals, such as seals and sea lions, as well as fish and seabirds. Although they have a fearsome reputation, attacks on humans are rare, and great whites are a protected species in many areas due to conservation concerns.</p>"
+    },
+    {
+        "key": "longfin-mako-shark",
+        "uiName": "Longfin Mako Shark",
+        "thumbnail": "https://whalerslocker.com/cdn/shop/articles/MakoShark-Stock_1200x1200.jpg?v=1662595485",
+        "description": "<p>The longfin mako shark (Isurus paucus) is a relatively rare species of mackerel shark found in deep, warm oceanic waters. It is closely related to the more well-known shortfin mako shark but is distinguished by its longer pectoral fins.</p><p>Longfin makos can grow up to 4.3 meters (14 feet) in length. They have a slender, streamlined body, a pointed snout, and large, black eyes. Their coloration is typically dark blue to gray on the top with a lighter underside.</p><p>This species is a fast swimmer and primarily feeds on bony fish and cephalopods. Due to its deep-water habitat, encounters with humans are rare, and it is considered less aggressive than its shortfin relative.</p>"
+    },
+    {
+        "key": "oceanic-whitetip-shark",
+        "uiName": "Oceanic Whitetip Shark",
+        "thumbnail": "https://dlnr.hawaii.gov/dar/files/2023/11/CX5A1242.jpg",
+        "description": "<p>The oceanic whitetip shark (Carcharhinus longimanus) is a large pelagic shark found in warm, open oceans around the world. It is easily identified by its long, rounded pectoral fins and the white tips on its fins.</p><p>Oceanic whitetips typically grow to about 3.5 meters (11.5 feet) in length. They have a robust build, a broad, rounded snout, and large eyes. Their coloration is generally gray to brown on top, with a white underside.</p><p>This species is known for its bold and curious nature, often approaching divers and boats. It feeds on a variety of prey, including fish, squid, and seabirds. The oceanic whitetip has been associated with attacks on shipwreck survivors, making it a species of interest in studies of shark behavior.</p>"
+    },
+    {
+        "key": "sandbar-shark",
+        "uiName": "Sandbar Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Wrangel-via-Canva.png",
+        "description": "<p>The sandbar shark (Carcharhinus plumbeus) is a large species of requiem shark commonly found in temperate and tropical coastal waters around the world. Known for its tall, triangular dorsal fin, the sandbar shark is often found in shallow waters, including bays and estuaries.</p><p>This shark can grow up to 2.5 meters (8.2 feet) in length. It has a robust, stocky body, a broad, rounded snout, and is generally grayish-brown with a paler underside.</p><p>Sandbar sharks primarily feed on fish, crustaceans, and other small marine animals. They are not considered dangerous to humans, but they are often encountered by divers and fishermen.</p>"
+    },
+    {
+        "key": "scalloped-hammerhead-shark",
+        "uiName": "Scalloped Hammerhead Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Thomas-Bannenberg-via-Canva.png",
+        "description": "<p>The scalloped hammerhead shark (Sphyrna lewini) is one of the most distinctive shark species due to its uniquely shaped head, which is flattened and extended into a hammer-like shape with a central indentation. This species is found in warm, tropical waters worldwide, including along coastlines and around oceanic islands.</p><p>Scalloped hammerheads can grow up to 4 meters (13 feet) in length. They have a streamlined body and are typically grayish-brown with a lighter underside. Their 'hammer' or cephalofoil helps them with enhanced sensory perception and maneuverability.</p><p>These sharks are known for forming large schools, especially during the day. They primarily feed on fish, cephalopods, and crustaceans. While they are generally not aggressive towards humans, their size and unique appearance make them a popular species among divers and researchers.</p>"
+    },
+    {
+        "key": "shortfin-mako-shark",
+        "uiName": "Shortfin Mako Shark",
+        "thumbnail": "https://www.fisheries.noaa.gov/s3//styles/inline_field_thumbnail/s3/dam-migration/noaa_fisheries_swfsc_walter_heim_mg_8978_pe.jpg?h=1c9b88c9&itok=Xm1n0P0W",
+        "description": "<p>The shortfin mako shark (Isurus oxyrinchus) is a powerful and fast species of mackerel shark found in temperate and tropical waters worldwide. Renowned for its speed, it is the fastest of all sharks, capable of reaching speeds up to 60 km/h (37 mph).</p><p>Shortfin makos can grow up to 4 meters (13 feet) in length. They have a streamlined, torpedo-shaped body, a pointed snout, and large, sharp teeth. Their coloration is typically metallic blue on the back and white on the belly.</p><p>This apex predator primarily feeds on bony fish and cephalopods, but it is also known to hunt other sharks. While shortfin makos are not typically dangerous to humans, they are known to be aggressive when provoked.</p>"
+    },
+    {
+        "key": "silky-shark",
+        "uiName": "Silky Shark",
+        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Carcharhinus_falciformis_off_Cuba.jpg",
+        "description": "<p>The silky shark (Carcharhinus falciformis) is a large, pelagic species known for its sleek appearance and smooth, silky skin. It is found in tropical and subtropical waters around the world, often far from shore.</p><p>Silky sharks can reach lengths of up to 3.5 meters (11.5 feet). They have a slender body, a rounded snout, and long, pointed pectoral fins. Their coloration is typically a uniform gray to brownish-gray, with a paler underside.</p><p>This species is highly migratory and often travels in schools. It primarily feeds on fish and cephalopods. While silky sharks are not generally dangerous to humans, they are curious and have been known to approach divers.</p>"
+    },
+    {
+        "key": "smooth-hammerhead-shark",
+        "uiName": "Smooth Hammerhead Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-Michael-Zeigler-via-Canva.png",
+        "description": "<p>The smooth hammerhead shark (Sphyrna zygaena) is a large species of hammerhead shark known for its smooth, rounded head, which lacks the central indentation found in other hammerhead species. It is found in both temperate and tropical waters worldwide, often in coastal areas.</p><p>Smooth hammerheads can grow up to 5 meters (16 feet) in length. They have a streamlined body and a unique head shape that helps enhance their sensory perception and maneuverability. Their coloration is generally gray to brownish-gray with a lighter underside.</p><p>This species feeds on a variety of prey, including fish, squid, and crustaceans. Smooth hammerheads are not typically dangerous to humans, but their size and unique appearance make them a notable species for study and observation.</p>"
+    },
+    {
+        "key": "thresher-shark",
+        "uiName": "Thresher Shark",
+        "thumbnail": "https://discovery.sndimg.com/content/dam/images/discovery/fullset/2022/7/11/GettyImages-1141812138.jpg.rend.hgtvcom.616.411.suffix/1657580531990.jpeg",
+        "description": "<p>The thresher shark (Alopias spp.) is known for its extraordinarily long, whip-like tail, which can be as long as the rest of its body. This tail is used to stun prey, making it a unique and effective hunting tool. Thresher sharks are found in oceans worldwide, primarily in temperate and tropical waters.</p><p>Thresher sharks can grow up to 6 meters (20 feet) in length, including their tail. They have a sleek, streamlined body, a small mouth, and relatively small eyes. Their coloration varies from blue to gray on the upper body with a lighter underside.</p><p>These sharks are typically solitary and are known to be capable of leaping out of the water. They primarily feed on small fish and squid. While thresher sharks are not considered a threat to humans, their size and distinctive tail make them a popular subject for marine photographers and divers.</p>"
+    },
+    {
+        "key": "tiger-shark",
+        "uiName": "Tiger Shark",
+        "thumbnail": "https://www.australiangeographic.com.au/wp-content/uploads/2023/07/shutterstock_2263403737-scaled.jpg",
+        "description": "<p>The tiger shark (Galeocerdo cuvier) is a large, predatory shark species known for the distinctive dark stripes on its body, which resemble a tiger's pattern. These stripes fade as the shark matures. Tiger sharks are found in tropical and subtropical waters around the world, often near coastlines.</p><p>Tiger sharks can grow up to 5.5 meters (18 feet) in length. They have a broad, blunt snout, powerful jaws, and a robust body. Their coloration is typically grayish-brown with a lighter underside.</p><p>This species is an opportunistic feeder, known for consuming a wide variety of prey, including fish, seals, birds, and even inedible objects. While tiger sharks are responsible for a number of unprovoked attacks on humans, they are also crucial to marine ecosystems and are subject to conservation efforts.</p>"
+    },
+    {
+        "key": "whale-shark",
+        "uiName": "Whale Shark",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMWN4_xq7ZKWY7oI1W0AuBb3ntPsrnGuS4rg&s",
+        "description": "<p>The whale shark (Rhincodon typus) is the largest fish species in the world, known for its immense size and distinctive pattern of white spots and stripes on a gray to brownish body. Despite its size, the whale shark is a gentle filter feeder, primarily consuming plankton.</p><p>Whale sharks can grow up to 12 meters (39 feet) or more in length, with some reports of individuals reaching over 18 meters (59 feet). They have a wide, flat head with a large mouth and tiny teeth, which are not used for feeding.</p><p>This species is found in warm tropical and subtropical oceans around the world. Whale sharks are a popular attraction for divers and are known for their peaceful nature. Conservation efforts are critical for this species due to threats from overfishing and habitat destruction.</p>"
+    },
+    {
+        "key": "whitetip-reef-shark",
+        "uiName": "Whitetip Reef Shark",
+        "thumbnail": "https://www.hawaiiactivities.com/travelguide/wp-content/uploads/©-CreativeNature_nl-via-Canva.png",
+        "description": "<p>The whitetip reef shark (Triaenodon obesus) is a small and slender species of requiem shark commonly found in the shallow coral reef habitats of the Indo-Pacific region. It is easily identifiable by the distinctive white tips on its first dorsal and upper caudal fins.</p><p>Whitetip reef sharks typically grow to about 1.6 meters (5.2 feet) in length. They have a broad, flattened head, large oval eyes, and a short, blunt snout. Their body is generally grayish-brown with a lighter underside.</p><p>This species is known for its preference for resting in caves and crevices during the day and hunting at night. Their diet consists mainly of bony fish, crustaceans, and octopuses. Whitetip reef sharks are generally not dangerous to humans and are known for their calm and curious nature, making them a popular species among divers.</p>"
+    }
+]

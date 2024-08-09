@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import Form from "../components/Form";
 import Modal, { IModalData } from "../components/Modal";
-import { IAnimalMeta } from "../interfaces/IAnimal";
+import { IAnimalMeta } from "../interfaces/IAnimalMeta";
 import '../styles/Details.scss';
 import '../styles/general.scss';
 
