@@ -1,12 +1,7 @@
+import { IAnimalsApiResponse } from "../api/animalsApi";
 import { ISeen } from "./ISeen";
 
-export interface IAnimal {
-    uiName: string;
-    thumbnail: string;
-    description: string;
-}
-
-export interface IAnimalMeta extends IAnimal, ISeen {
+export interface IAnimalMeta extends IAnimalsApiResponse, ISeen {
     seen: boolean;
     id: string;
 }

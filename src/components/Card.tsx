@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import { IAnimal } from "../interfaces/IAnimal";
+import { IAnimalsApiResponse } from "../api/animalsApi";
 import { ISeen } from "../interfaces/ISeen";
 import '../styles/Card.scss';
 
-export default function Card({ animal, id, seen, seenData }: { animal: IAnimal, id: string, seen: boolean, seenData: ISeen }) {
+export default function Card({ animal, id, seen, seenData }: { animal: IAnimalsApiResponse, id: string, seen: boolean, seenData: ISeen | null }) {
     let classes: string = 'card';
 
     if (seen) {
